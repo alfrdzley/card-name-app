@@ -3,7 +3,7 @@ import profileImage from '../img/alfaridzi.jpeg'; // Ubah path sesuai dengan nam
 
 const CardName = ({ name, username, title, repositories, stars }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-gray-800 text-white m-4">
+    <div className="max-w-md w-full rounded overflow-hidden shadow-lg bg-gray-800 text-white m-4"> {/* Tambahkan w-full */}
       <div className="flex items-center p-4">
         <img className="w-16 h-16 rounded-full mr-4" src={profileImage} alt="Profile" /> {/* Gunakan gambar yang diimport */}
         <div>
